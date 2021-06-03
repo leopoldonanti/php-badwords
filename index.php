@@ -83,7 +83,24 @@
   fuck (fuck) fuck (fuck) fuck (fuck)
   Fuck, fuck fuck, fuck fuck fuck fuck fuck fuuck.(fu-fu-fu-fuuck)
   fu-fu-fuc-fuc-fuc-fuck.
-  SHIIT"
+  SHIIT";
+
+  $parolacce = array(
+    "Fuck",
+    "fuck",
+    "FUCK",
+    "FOCK",
+    "FOK",
+    "fu-fuck",
+    "FOOK",
+    "FUUUUUUCK",
+    "FUUUCK",
+    "FOOOOOOOOOOCK",
+    "fu-fu-fu-fu-fu-fu-fu-fu-fu-fu-fu-fuuck",
+    "FAAK",
+
+  );
+  
   ?>
 
 <h1> Lyrics: NSFW from the Band Physcostick.</h1>
@@ -100,7 +117,7 @@
 
 <h1>Testo censurato:</h1>
 
-<p> <?php echo str_replace("fuck", "***", $testo) ?> </p>
+<p> <?php echo str_replace($parolacce, "***", $testo) ?> </p>
 
 </body>
 </html>
